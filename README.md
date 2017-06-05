@@ -1,7 +1,7 @@
 # SoulPainter
 灵魂画家
 
-## 一个简单的绘图的view，使用 CAShapeLayer + UIBezierPath 实现
+## 一个简单的绘图的 view，使用 CAShapeLayer + UIBezierPath 实现
 - 画笔的颜色
 - 画笔的宽度
 - 撤销
