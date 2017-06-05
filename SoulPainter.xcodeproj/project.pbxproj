@@ -15,6 +15,7 @@
 		F159A01B1EE538E100B4BA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F159A0191EE538E100B4BA1C /* LaunchScreen.storyboard */; };
 		F159A0261EE538E100B4BA1C /* SoulPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A0251EE538E100B4BA1C /* SoulPainterTests.m */; };
 		F159A0311EE538E100B4BA1C /* SoulPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A0301EE538E100B4BA1C /* SoulPainterUITests.m */; };
+		F159A0401EE53A7000B4BA1C /* SPPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A03F1EE53A7000B4BA1C /* SPPaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F159A02C1EE538E100B4BA1C /* SoulPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F159A0301EE538E100B4BA1C /* SoulPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulPainterUITests.m; sourceTree = "<group>"; };
 		F159A0321EE538E100B4BA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F159A03E1EE53A7000B4BA1C /* SPPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPaintView.h; sourceTree = "<group>"; };
+		F159A03F1EE53A7000B4BA1C /* SPPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPaintView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F159A00F1EE538E100B4BA1C /* AppDelegate.m */,
 				F159A0111EE538E100B4BA1C /* ViewController.h */,
 				F159A0121EE538E100B4BA1C /* ViewController.m */,
+				F159A03E1EE53A7000B4BA1C /* SPPaintView.h */,
+				F159A03F1EE53A7000B4BA1C /* SPPaintView.m */,
 				F159A0141EE538E100B4BA1C /* Main.storyboard */,
 				F159A0171EE538E100B4BA1C /* Assets.xcassets */,
 				F159A0191EE538E100B4BA1C /* LaunchScreen.storyboard */,
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					F159A0071EE538E100B4BA1C = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2VMAA2MZL8;
+						DevelopmentTeam = LE473NCF2R;
 						ProvisioningStyle = Automatic;
 					};
 					F159A0201EE538E100B4BA1C = {
@@ -278,6 +283,7 @@
 			files = (
 				F159A0131EE538E100B4BA1C /* ViewController.m in Sources */,
 				F159A0101EE538E100B4BA1C /* AppDelegate.m in Sources */,
+				F159A0401EE53A7000B4BA1C /* SPPaintView.m in Sources */,
 				F159A00D1EE538E100B4BA1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				DEVELOPMENT_TEAM = LE473NCF2R;
 				INFOPLIST_FILE = SoulPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainter;
@@ -439,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				DEVELOPMENT_TEAM = LE473NCF2R;
 				INFOPLIST_FILE = SoulPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainter;
