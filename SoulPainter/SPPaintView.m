@@ -41,6 +41,7 @@
 - (void)reset {
     [self.undoStep enumerateObjectsUsingBlock:^(CALayer *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj removeFromSuperlayer];
+        [obj removeFromSuperlayer];
     }];
     [self.undoStep removeAllObjects];
     [self.redoStep removeAllObjects];
@@ -52,7 +53,7 @@
     }
     CALayer *layer = self.undoStep.lastObject;
     [self.undoStep removeObject:layer];
-    
+    [layer removeFromSuperlayer];
     [self.redoStep addObject:layer];
 }
 
@@ -72,7 +73,6 @@
 }
 
 - (UIImage *)saveImage {
-    
     if (self.undoStep.count == 0) {
         return nil;
     }
@@ -116,15 +116,22 @@
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.paper removeFromSuperlayer];
 }
-#pragma mark - Getter
+#pragma mark - Getter & Setter
+- (void)setPaintWidth:(CGFloat)paintWidth {
+    if (paintWidth < 0.0) {
+        paintWidth = 0.0;
+    }
+    _paintWidth = paintWidth;
+}
+
 - (CAShapeLayer *)paper {
     if (_paper == nil) {
         _paper = [CAShapeLayer layer];
         _paper.fillColor = [UIColor clearColor].CGColor;
         _paper.strokeColor = self.paintColor.CGColor ?: [UIColor blackColor].CGColor;
+        _paper.lineWidth = self.paintWidth > 0 ? self.paintWidth : 10;
         _paper.lineCap = kCALineCapRound;
-        _paper.lineJoin = kCALineCapRound;
-        _paper.lineWidth = self.paintWidth > 0 ? self.paintWidth : 0.3;
+        _paper.lineJoin = kCALineJoinRound;
     }
     return _paper;
 }
@@ -132,8 +139,6 @@
 - (UIBezierPath *)pen {
     if (_pen == nil) {
         _pen = [UIBezierPath bezierPath];
-        _pen.lineCapStyle = kCGLineCapRound;
-        _pen.lineJoinStyle = kCGLineCapRound;
     }
     return _pen;
 }
