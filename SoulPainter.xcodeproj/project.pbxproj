@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F159A00D1EE538E100B4BA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A00C1EE538E100B4BA1C /* main.m */; };
+		F159A0101EE538E100B4BA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A00F1EE538E100B4BA1C /* AppDelegate.m */; };
+		F159A0131EE538E100B4BA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A0121EE538E100B4BA1C /* ViewController.m */; };
+		F159A0161EE538E100B4BA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F159A0141EE538E100B4BA1C /* Main.storyboard */; };
+		F159A0181EE538E100B4BA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F159A0171EE538E100B4BA1C /* Assets.xcassets */; };
+		F159A01B1EE538E100B4BA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F159A0191EE538E100B4BA1C /* LaunchScreen.storyboard */; };
+		F159A0261EE538E100B4BA1C /* SoulPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A0251EE538E100B4BA1C /* SoulPainterTests.m */; };
+		F159A0311EE538E100B4BA1C /* SoulPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F159A0301EE538E100B4BA1C /* SoulPainterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F159A0221EE538E100B4BA1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F159A0001EE538E100B4BA1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F159A0071EE538E100B4BA1C;
+			remoteInfo = SoulPainter;
+		};
+		F159A02D1EE538E100B4BA1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F159A0001EE538E100B4BA1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F159A0071EE538E100B4BA1C;
+			remoteInfo = SoulPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F159A0081EE538E100B4BA1C /* SoulPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F159A00C1EE538E100B4BA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F159A00E1EE538E100B4BA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F159A00F1EE538E100B4BA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F159A0111EE538E100B4BA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F159A0121EE538E100B4BA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F159A0151EE538E100B4BA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F159A0171EE538E100B4BA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F159A01A1EE538E100B4BA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F159A01C1EE538E100B4BA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F159A0211EE538E100B4BA1C /* SoulPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F159A0251EE538E100B4BA1C /* SoulPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulPainterTests.m; sourceTree = "<group>"; };
+		F159A0271EE538E100B4BA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F159A02C1EE538E100B4BA1C /* SoulPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F159A0301EE538E100B4BA1C /* SoulPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulPainterUITests.m; sourceTree = "<group>"; };
+		F159A0321EE538E100B4BA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F159A0051EE538E100B4BA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A01E1EE538E100B4BA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A0291EE538E100B4BA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1599FFF1EE538E100B4BA1C = {
+			isa = PBXGroup;
+			children = (
+				F159A00A1EE538E100B4BA1C /* SoulPainter */,
+				F159A0241EE538E100B4BA1C /* SoulPainterTests */,
+				F159A02F1EE538E100B4BA1C /* SoulPainterUITests */,
+				F159A0091EE538E100B4BA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F159A0091EE538E100B4BA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F159A0081EE538E100B4BA1C /* SoulPainter.app */,
+				F159A0211EE538E100B4BA1C /* SoulPainterTests.xctest */,
+				F159A02C1EE538E100B4BA1C /* SoulPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F159A00A1EE538E100B4BA1C /* SoulPainter */ = {
+			isa = PBXGroup;
+			children = (
+				F159A00E1EE538E100B4BA1C /* AppDelegate.h */,
+				F159A00F1EE538E100B4BA1C /* AppDelegate.m */,
+				F159A0111EE538E100B4BA1C /* ViewController.h */,
+				F159A0121EE538E100B4BA1C /* ViewController.m */,
+				F159A0141EE538E100B4BA1C /* Main.storyboard */,
+				F159A0171EE538E100B4BA1C /* Assets.xcassets */,
+				F159A0191EE538E100B4BA1C /* LaunchScreen.storyboard */,
+				F159A01C1EE538E100B4BA1C /* Info.plist */,
+				F159A00B1EE538E100B4BA1C /* Supporting Files */,
+			);
+			path = SoulPainter;
+			sourceTree = "<group>";
+		};
+		F159A00B1EE538E100B4BA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F159A00C1EE538E100B4BA1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F159A0241EE538E100B4BA1C /* SoulPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F159A0251EE538E100B4BA1C /* SoulPainterTests.m */,
+				F159A0271EE538E100B4BA1C /* Info.plist */,
+			);
+			path = SoulPainterTests;
+			sourceTree = "<group>";
+		};
+		F159A02F1EE538E100B4BA1C /* SoulPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F159A0301EE538E100B4BA1C /* SoulPainterUITests.m */,
+				F159A0321EE538E100B4BA1C /* Info.plist */,
+			);
+			path = SoulPainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F159A0071EE538E100B4BA1C /* SoulPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F159A0351EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainter" */;
+			buildPhases = (
+				F159A0041EE538E100B4BA1C /* Sources */,
+				F159A0051EE538E100B4BA1C /* Frameworks */,
+				F159A0061EE538E100B4BA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoulPainter;
+			productName = SoulPainter;
+			productReference = F159A0081EE538E100B4BA1C /* SoulPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F159A0201EE538E100B4BA1C /* SoulPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F159A0381EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainterTests" */;
+			buildPhases = (
+				F159A01D1EE538E100B4BA1C /* Sources */,
+				F159A01E1EE538E100B4BA1C /* Frameworks */,
+				F159A01F1EE538E100B4BA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F159A0231EE538E100B4BA1C /* PBXTargetDependency */,
+			);
+			name = SoulPainterTests;
+			productName = SoulPainterTests;
+			productReference = F159A0211EE538E100B4BA1C /* SoulPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F159A02B1EE538E100B4BA1C /* SoulPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F159A03B1EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainterUITests" */;
+			buildPhases = (
+				F159A0281EE538E100B4BA1C /* Sources */,
+				F159A0291EE538E100B4BA1C /* Frameworks */,
+				F159A02A1EE538E100B4BA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F159A02E1EE538E100B4BA1C /* PBXTargetDependency */,
+			);
+			name = SoulPainterUITests;
+			productName = SoulPainterUITests;
+			productReference = F159A02C1EE538E100B4BA1C /* SoulPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F159A0001EE538E100B4BA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bmcciscoding;
+				TargetAttributes = {
+					F159A0071EE538E100B4BA1C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2VMAA2MZL8;
+						ProvisioningStyle = Automatic;
+					};
+					F159A0201EE538E100B4BA1C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2VMAA2MZL8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F159A0071EE538E100B4BA1C;
+					};
+					F159A02B1EE538E100B4BA1C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2VMAA2MZL8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F159A0071EE538E100B4BA1C;
+					};
+				};
+			};
+			buildConfigurationList = F159A0031EE538E100B4BA1C /* Build configuration list for PBXProject "SoulPainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1599FFF1EE538E100B4BA1C;
+			productRefGroup = F159A0091EE538E100B4BA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F159A0071EE538E100B4BA1C /* SoulPainter */,
+				F159A0201EE538E100B4BA1C /* SoulPainterTests */,
+				F159A02B1EE538E100B4BA1C /* SoulPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F159A0061EE538E100B4BA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F159A01B1EE538E100B4BA1C /* LaunchScreen.storyboard in Resources */,
+				F159A0181EE538E100B4BA1C /* Assets.xcassets in Resources */,
+				F159A0161EE538E100B4BA1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A01F1EE538E100B4BA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A02A1EE538E100B4BA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F159A0041EE538E100B4BA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F159A0131EE538E100B4BA1C /* ViewController.m in Sources */,
+				F159A0101EE538E100B4BA1C /* AppDelegate.m in Sources */,
+				F159A00D1EE538E100B4BA1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A01D1EE538E100B4BA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F159A0261EE538E100B4BA1C /* SoulPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F159A0281EE538E100B4BA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F159A0311EE538E100B4BA1C /* SoulPainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F159A0231EE538E100B4BA1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F159A0071EE538E100B4BA1C /* SoulPainter */;
+			targetProxy = F159A0221EE538E100B4BA1C /* PBXContainerItemProxy */;
+		};
+		F159A02E1EE538E100B4BA1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F159A0071EE538E100B4BA1C /* SoulPainter */;
+			targetProxy = F159A02D1EE538E100B4BA1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F159A0141EE538E100B4BA1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F159A0151EE538E100B4BA1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F159A0191EE538E100B4BA1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F159A01A1EE538E100B4BA1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F159A0331EE538E100B4BA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F159A0341EE538E100B4BA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F159A0361EE538E100B4BA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F159A0371EE538E100B4BA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F159A0391EE538E100B4BA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulPainter.app/SoulPainter";
+			};
+			name = Debug;
+		};
+		F159A03A1EE538E100B4BA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulPainter.app/SoulPainter";
+			};
+			name = Release;
+		};
+		F159A03C1EE538E100B4BA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoulPainter;
+			};
+			name = Debug;
+		};
+		F159A03D1EE538E100B4BA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2VMAA2MZL8;
+				INFOPLIST_FILE = SoulPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qp.SoulPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoulPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F159A0031EE538E100B4BA1C /* Build configuration list for PBXProject "SoulPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F159A0331EE538E100B4BA1C /* Debug */,
+				F159A0341EE538E100B4BA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F159A0351EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F159A0361EE538E100B4BA1C /* Debug */,
+				F159A0371EE538E100B4BA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F159A0381EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F159A0391EE538E100B4BA1C /* Debug */,
+				F159A03A1EE538E100B4BA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F159A03B1EE538E100B4BA1C /* Build configuration list for PBXNativeTarget "SoulPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F159A03C1EE538E100B4BA1C /* Debug */,
+				F159A03D1EE538E100B4BA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F159A0001EE538E100B4BA1C /* Project object */;
+}
