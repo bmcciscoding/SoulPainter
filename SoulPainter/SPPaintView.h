@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) UIColor *paintColor;
 @property (nonatomic, assign) CGFloat paintWidth;
-@property (nonatomic, strong) UIImage *customPenHeader;
 
 - (void)reset;
 - (void)undo;
